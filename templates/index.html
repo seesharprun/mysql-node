@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  </head>
+  <body class="mb-5">
+    <nav class="navbar navbar-light bg-faded mb-5">
+		<h1 class="navbar-brand mb-0">MySQL Test</h1>
+	</nav>
+	<main class="container">
+		<h1 class="display-1">
+			{{title}}
+		</h1>
+		<hr />
+		{{#message}}
+			<p class="lead">
+				{{message}}	
+			</p>
+		{{/message}}
+		<div class="list-group">
+			{{#data}}				
+			  <div class="list-group-item list-group-item-action flex-column align-items-start">
+			    <div class="d-flex w-100 justify-content-between">
+			      <h5 class="mb-1">
+					  {{name}}
+				  </h5>
+			      <small>
+					  {{id}}
+				  </small>
+			    </div>
+			    <p class="mb-1">
+			    	<small>
+						{{location}}
+					</small>					
+				</p>
+			  </div>
+			{{/data}}
+		</div>
+	</main>
+  </body>
+</html>
