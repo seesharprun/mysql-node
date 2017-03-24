@@ -1,0 +1,20 @@
+{
+  "name": "freesqlsidney",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://sidneyghost@freesqlsidney.scm.azurewebsites.net:443/freesqlsidney.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mu2": "^0.5.21",
+    "mysql": "^2.13.0"
+  }
+}
